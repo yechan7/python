@@ -1,0 +1,32 @@
+# 터틀 별 그리기
+
+import turtle
+turtle.shape("turtle")
+
+turtle.begin_fill()
+turtle.forward(100)
+turtle.right(144)
+turtle.forward(100)
+turtle.right(144)
+turtle.forward(100)
+turtle.right(144)
+turtle.forward(100)
+turtle.right(144)
+turtle.forward(100)
+turtle.right(144)
+turtle.end_fill()
+
+turtle.begin_fill()
+turtle.forward(100/1.6)
+turtle.right(360/5)
+turtle.forward(100/4)
+turtle.right(360/5)
+turtle.forward(100/4)
+turtle.right(360/5)
+turtle.forward(100/4)
+turtle.right(360/5)
+turtle.forward(100/4)
+turtle.right(360/5)
+turtle.forward(100/4)
+turtle.right(360/5)
+turtle.end_fill()
